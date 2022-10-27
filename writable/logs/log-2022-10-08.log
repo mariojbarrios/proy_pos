@@ -1,0 +1,678 @@
+CRITICAL - 2022-10-08 10:36:01 --> Undefined variable $empleadosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 41.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleadosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-08 10:59:53 --> mysqli_sql_exception: Column 'idusuario' cannot be null in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Usuarios.php(22): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Usuarios->agregarUsuarios()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-08 11:32:14 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 3 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:35:18 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 3 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:41:14 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:42:05 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(13): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:42:18 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(13): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:50:27 --> Call to undefined method CodeIgniter\View\View::nodel()
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 88.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 4 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:51:31 --> Undefined property: CodeIgniter\View\View::$model
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$model', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 11:51:36 --> Undefined property: CodeIgniter\View\View::$model
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 89.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$model', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:09:35 --> Undefined variable $empleados
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 90.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:09:51 --> Undefined variable $empleados
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 90.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:44:51 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 91.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:46:24 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 91.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(12): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:50:03 --> Undefined array key "permiso"
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 92.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(20): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:51:49 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 91.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:52:14 --> Undefined variable $usuarioDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 91.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:52:17 --> Undefined variable $usuarioDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 91.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarioDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:53:12 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 90.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 12:53:13 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 90.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 14:54:52 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 90.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 14:56:23 --> Undefined variable $info
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 90.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [...], true)
+ 5 APPPATH\Controllers\Empleados.php(22): view('vista_usuarios/lista_empleados', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:05:15 --> Undefined property: App\Controllers\Controlmenus::$session
+in APPPATH\Controllers\Controlmenus.php on line 26.
+ 1 APPPATH\Controllers\Controlmenus.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Controlmenus::$session', 'APPPATH\\Controllers\\Controlmenus.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Controlmenus->iniciarSesion()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlmenus))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:08:19 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Controlmenus.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Controlmenus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controlmenus')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controlmenus')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Controlmenus', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:09:02 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Controlmenus.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Controlmenus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controlmenus')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controlmenus')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Controlmenus', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:28:13 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:29:16 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:35:05 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:35:06 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:35:10 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:36:04 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:44:09 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:44:10 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:57:31 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:57:35 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:57:36 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:59:04 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 15:59:31 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:01:14 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:01:15 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:01:15 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:01:15 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:01:50 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:02:42 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:02:46 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:03:25 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:03:28 --> Undefined variable $info
+in APPPATH\Controllers\Empleados.php on line 18.
+ 1 APPPATH\Controllers\Empleados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Controllers\\Empleados.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 16:05:33 --> Undefined variable $usuariosDb
+in APPPATH\Views\vista_usuarios\lista_empleados.php on line 131.
+ 1 APPPATH\Views\vista_usuarios\lista_empleados.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuariosDb', 'APPPATH\\Views\\vista_usuarios\\lista_empleados.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\lista_empleados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/lista_empleados', [], true)
+ 5 APPPATH\Controllers\Empleados.php(13): view('vista_usuarios/lista_empleados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:04:28 --> Undefined array key "idempleados"
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleados"', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:06:30 --> Undefined array key "idempleados"
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleados"', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:10:26 --> Undefined array key "idempleados"
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleados"', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:11:02 --> Undefined variable $empleadosDb
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleadosDb', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:13:00 --> Undefined array key "idempleado"
+in APPPATH\Controllers\Empleados.php on line 49.
+ 1 APPPATH\Controllers\Empleados.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleado"', 'APPPATH\\Controllers\\Empleados.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:13:27 --> Cannot use object of type App\Models\Empleado as array
+in APPPATH\Controllers\Empleados.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:14:14 --> Cannot use object of type App\Models\Empleado as array
+in APPPATH\Controllers\Empleados.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:14:32 --> Undefined array key "idempleados"
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleados"', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:16:23 --> Undefined array key "idempleados"
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleados"', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 17:16:42 --> Undefined array key "idempleados"
+in APPPATH\Views\vista_usuarios\frm_actualizar_emp.php on line 23.
+ 1 APPPATH\Views\vista_usuarios\frm_actualizar_emp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idempleados"', 'APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_usuarios\\frm_actualizar_emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_usuarios/frm_actualizar_emp', [], true)
+ 5 APPPATH\Controllers\Empleados.php(49): view('vista_usuarios/frm_actualizar_emp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Empleados->datosEmpleados('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-08 17:31:32 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emplead...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emplead...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emplead...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `emplead...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Empleados.php(68): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Empleados->actualizarEmpleados()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-08 17:34:56 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emplead...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emplead...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emplead...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `emplead...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Empleados.php(67): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Empleados->actualizarEmpleados()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-08 17:35:58 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emplead...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emplead...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emplead...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `emplead...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Empleados.php(67): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Empleados->actualizarEmpleados()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-08 17:37:06 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emplead...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emplead...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emplead...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `emplead...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Empleados.php(67): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Empleados->actualizarEmpleados()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-08 18:55:08 --> mysqli_sql_exception: Column 'idproducto' cannot be null in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Inventarios.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Inventarios->agregarInventarios()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-08 18:56:16 --> mysqli_sql_exception: Column 'idproducto' cannot be null in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Inventarios.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Inventarios->agregarInventarios()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-08 18:57:45 --> mysqli_sql_exception: Column 'idproducto' cannot be null in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Inventarios.php(28): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Inventarios->agregarInventarios()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-08 19:14:42 --> Cannot access offset of type string on string
+in APPPATH\Views\vista_inventario\lista_inventarios.php on line 44.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_inventario/lista_inventarios', [], true)
+ 4 APPPATH\Controllers\Inventarios.php(42): view('vista_inventario/lista_inventarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inventarios->datosInventarios('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 19:15:02 --> Cannot access offset of type string on string
+in APPPATH\Views\vista_inventario\lista_inventarios.php on line 44.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_inventario/lista_inventarios', [], true)
+ 4 APPPATH\Controllers\Inventarios.php(42): view('vista_inventario/lista_inventarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inventarios->datosInventarios('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 19:16:13 --> Cannot access offset of type string on string
+in APPPATH\Views\vista_inventario\lista_inventarios.php on line 44.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_inventario/lista_inventarios', [], true)
+ 4 APPPATH\Controllers\Inventarios.php(42): view('vista_inventario/lista_inventarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inventarios->datosInventarios('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 19:19:58 --> Invalid file: vista_inventario/frm_atualizar_inv.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vista_inventario/frm_atualizar_inv.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_inventario/frm_atualizar_inv', [], true)
+ 3 APPPATH\Controllers\Inventarios.php(42): view('vista_inventario/frm_atualizar_inv', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inventarios->datosInventarios('3')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventarios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-08 21:23:05 --> Undefined array key "tipousuario"
+in APPPATH\Controllers\Controlmenus.php on line 58.
+ 1 APPPATH\Controllers\Controlmenus.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipousuario"', 'APPPATH\\Controllers\\Controlmenus.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Controlmenus->regresarusuario()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlmenus))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

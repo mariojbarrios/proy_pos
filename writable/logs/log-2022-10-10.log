@@ -1,0 +1,797 @@
+ERROR - 2022-10-10 07:50:59 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('4')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:51:08 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('3')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:54:39 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:54:42 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('3')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:54:44 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:54:45 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:55:17 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:55:23 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-10 07:56:11 --> Unclosed '(' on line 49 does not match '}'
+in APPPATH\Controllers\Compras.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Compras.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Compras')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Compras')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Compras', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-10 07:56:35 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:56:38 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 07:59:50 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:00:32 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('4')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:00:34 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('4')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:00:35 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('4')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:00:36 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('4')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:00:37 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('4')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-10 08:10:49 --> Undefined array key "idcompras"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 24.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idcompras"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(57): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 08:11:07 --> Undefined array key "id_proveedor"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 52.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 08:15:19 --> Undefined array key "id_proveedor"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 52.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 08:18:21 --> Undefined array key "id_proveedor"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 52.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 08:18:26 --> Undefined array key "id_proveedor"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 52.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 08:20:19 --> Undefined array key "id_proveedor"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 52.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 08:22:20 --> Undefined array key "id_proveedor"
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 52.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_proveedor"', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('4')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-10 08:33:20 --> mysqli_sql_exception: Unknown column 'lista_compras.idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `lista_c...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `lista_c...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `lista_c...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `lista_c...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(82): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->actualizarCompras()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-10 08:33:31 --> mysqli_sql_exception: Unknown column 'lista_compras.idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `lista_c...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `lista_c...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `lista_c...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `lista_c...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(82): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->actualizarCompras()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-10 08:39:44 --> mysqli_sql_exception: Unknown column 'lista_compras.idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `lista_c...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `lista_c...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `lista_c...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `lista_c...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(82): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->actualizarCompras()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-10 08:39:52 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:41:45 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(46): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:41:53 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(46): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('2')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:42:54 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(46): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('3')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:43:45 --> mysqli_sql_exception: Unknown column 'idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `co...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `co...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `co...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `co...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(45): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->eliminarCompras('3')
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-10 08:44:46 --> mysqli_sql_exception: Unknown column 'lista_compras.idcompra' in 'where clause' in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `lista_c...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `lista_c...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `lista_c...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `lista_c...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(692): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Compras.php(85): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Compras->actualizarCompras()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-10 09:20:10 --> Undefined variable $ventas
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 60.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:44:10 --> Undefined variable $ventas
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 60.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:47:40 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:48:28 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:48:30 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:49:19 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:49:56 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:52:23 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:52:39 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:52:42 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 61.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(11): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 09:57:18 --> Undefined array key "descripcion"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 62.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(39): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->agregarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 10:54:58 --> Undefined array key "descripcion"
+in APPPATH\Views\vista_ventas\lista_ventas.php on line 62.
+ 1 APPPATH\Views\vista_ventas\lista_ventas.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Views\\vista_ventas\\lista_ventas.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\lista_ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/lista_ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(39): view('vista_ventas/lista_ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->agregarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 10:55:56 --> Call to a member function findAll() on string
+in APPPATH\Controllers\Ventas.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->agregarVentas()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-10 10:56:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`proy_pos`.`ventas`, CONSTRAINT `idcliente_fk` FOREIGN KEY (`idcliente`) REFERENCES `clientes` (`idcliente`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\proy_pos_pruebas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\proy_pos_pruebas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proy_pos_pruebas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proy_pos_pruebas\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proy_pos_pruebas\app\Controllers\Ventas.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(898): App\Controllers\Ventas->agregarVentas()
+#9 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#10 C:\xampp\htdocs\proy_pos_pruebas\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proy_pos_pruebas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-10 11:02:55 --> Undefined variable $clientesDb
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 24.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientesDb', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 11:16:05 --> Undefined variable $comprasDb
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 24.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comprasDb', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 11:16:05 --> Undefined variable $comprasDb
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 24.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comprasDb', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 11:18:54 --> Undefined array key "fecha_compra"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 28.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_compra"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 11:19:38 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 11:20:51 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 12:04:04 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 12:06:11 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 12:06:23 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 12:06:32 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 12:06:43 --> Undefined array key "ventas"
+in APPPATH\Views\vista_ventas\frm_actualizar_ven.php on line 36.
+ 1 APPPATH\Views\vista_ventas\frm_actualizar_ven.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ventas"', 'APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_ventas\\frm_actualizar_ven.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_ventas/frm_actualizar_ven', [], true)
+ 5 APPPATH\Controllers\Ventas.php(54): view('vista_ventas/frm_actualizar_ven', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->datosVentas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:27:56 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 48.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:28:15 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 48.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:28:28 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 48.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:29:05 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 48.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:30:10 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 46.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:30:11 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 46.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:30:21 --> Undefined variable $pago
+in APPPATH\Views\vista_compras\frm_actualizar_com.php on line 46.
+ 1 APPPATH\Views\vista_compras\frm_actualizar_com.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pago', 'APPPATH\\Views\\vista_compras\\frm_actualizar_com.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_compras\\frm_actualizar_com.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vista_compras/frm_actualizar_com', [], true)
+ 5 APPPATH\Controllers\Compras.php(55): view('vista_compras/frm_actualizar_com', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->datosCompras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-10 14:55:29 --> Cannot use object of type App\Models\Inventario as array
+in APPPATH\Controllers\Compras.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->agregarCompras()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
